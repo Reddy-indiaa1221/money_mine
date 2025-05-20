@@ -93,3 +93,29 @@ button {
 button:hover {
     background-color: #218838;
 }
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 20px 20px 40px; /* extra bottom padding */
+        height: auto;
+    }
+
+    .hero-text {
+        margin: 20px 0 0;
+        padding-bottom: 30px; /* space below button */
+    }
+
+    .typing-text {
+        font-size: 1.2rem;
+    }
+
+    .phone-stack {
+        width: 300px;
+        height: 570px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
